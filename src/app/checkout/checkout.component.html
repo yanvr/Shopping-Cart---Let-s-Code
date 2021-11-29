@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="checkout-title">
+    <h2>Meu Carrinho</h2>
+  </div>
+  <div class="container-cart">
+    <div class="container-itens">
+      <div class="titles">
+        <span>Produto</span>
+        <span>Preço</span>
+        <span>Quantidade</span>
+        <span>Total</span>
+      </div>
+      <div *ngFor="let product of products">
+        <app-checkout-item
+          [product]="product"
+          (increaseEvent)="increaseQuantity($event)"
+          (decreaseEvent)="decreaseQuantity($event)"
+          (removeEvent)="removeProduct($event)"
+        ></app-checkout-item>
+      </div>
+    </div>
+    <div class="container-order">
+      <app-checkout-order [totalOrder]="totalOrder"></app-checkout-order>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-default {
+  width: 100%;
+  padding: 1.2rem 0;
+  text-transform: uppercase;
+  border: none;
+  background-color: #509450;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.padding {
+  padding: 30px;
+}

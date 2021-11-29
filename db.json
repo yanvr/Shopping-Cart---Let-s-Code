@@ -1,0 +1,75 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "description": "Celular Morola G8",
+      "price": 1300,
+      "quantity": 1,
+      "img": "https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1620262451"
+    },
+    {
+      "id": "2",
+      "description": "Notebook Asus",
+      "price": 2600,
+      "quantity": 1,
+      "img": "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1372848183"
+    },
+    {
+      "id": "3",
+      "description": "SSD Kingston 240 GB",
+      "price": 399,
+      "quantity": 1,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_663453-MLA48158657719_112021-O.webp"
+    },
+    {
+      "id": "4",
+      "description": "Playstation 4",
+      "price": 2900,
+      "quantity": 1,
+      "img": "https://http2.mlstatic.com/D_NQ_NP_633118-MLA32731749093_112019-O.jpg"
+    },
+    {
+      "id": "5",
+      "description": "Mouse RedDragon",
+      "price": 99,
+      "quantity": 1,
+      "img": "https://www.fujioka.com.br/arquivos/ids/172896-1000-1000/a_581998_alta_3.png?v=637414815035530000"
+    },
+    {
+      "id": "6",
+      "description": "Iphone 13",
+      "price": 4999,
+      "quantity": 1,
+      "img": "https://a-static.mlcdn.com.br/618x463/apple-iphone-13-pro-128gb-grafite-tela-61-12mp-ios/magazineluiza/233010100/e7ae249061a1161a4add479286e7a619.jpg"
+    },
+    {
+      "id": "7",
+      "description": "Teclado Mecânico Razer",
+      "price": 1000,
+      "quantity": 1,
+      "img": "https://a-static.mlcdn.com.br/1500x1500/razer-teclado-cynosa-chroma-v2/warcomputerme/12315449135/53cd76745c9828789dc81a35f4e71fb0.jpg"
+    },
+    {
+      "id": "8",
+      "description": "TV 4K Samsung 50",
+      "price": 2000,
+      "quantity": 1,
+      "img": "https://a-static.mlcdn.com.br/1500x1500/smart-tv-4k-led-50-samsung-un50ru7100-wi-fi-bluetooth-hdr-3-hdmi-2-usb/magazineluiza/193425500/ab803c1fa1fd2b4bd35645b49bbb2ad9.jpg"
+    },
+    {
+      "id": "9",
+      "description": "Mesa digitalizadora",
+      "price": 500,
+      "quantity": 1,
+      "img": "https://www.syma.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/m/e/mesa-digitalizadora-wacom-intuos-ctl4100_1_.jpg"
+    },
+    {
+      "id": "10",
+      "description": "PC Gamer Pichau",
+      "price": 3500,
+      "quantity": 1,
+      "img": "https://i.zst.com.br/thumbs/12/2c/35/1186126961.jpg"
+    }
+  ]
+  
+}

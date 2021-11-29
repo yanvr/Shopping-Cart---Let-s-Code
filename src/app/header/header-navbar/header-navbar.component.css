@@ -1,0 +1,20 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 1rem;
+  color: #797979;
+  padding: 1.5rem;
+  transition: 1s;
+}
+
+a:hover {
+  color: white;
+}
+
+.selected {
+  color: white;
+}

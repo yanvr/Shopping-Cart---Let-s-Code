@@ -1,0 +1,48 @@
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+span {
+  margin: 0.5rem 0;
+}
+
+.order-container {
+  width: 100%;
+}
+
+.order-summary {
+  border: 1px solid rgba(0 0 0 / 10%);
+  margin-bottom: 1rem;
+  background-color: #efefef;
+}
+
+.order-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.order-resume {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.resume-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.resume-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  background-color: #e8e8e8;
+}

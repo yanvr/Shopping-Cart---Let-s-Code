@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="container-product-details">
+    <div class="product-img">
+      <img [src]="product.img" />
+    </div>
+    <div class="product-add-cart">
+      <h2>{{ product.description }}</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed harum autem
+        dolor. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sunt
+        minus distinctio neque quisquam minima, ex natus! Harum, vero. Nesciunt
+        asperiores nobis placeat veniam quaerat harum perferendis tempore
+        pariatur ducimus.
+      </p>
+      <strong>{{ product.price | currency }}</strong>
+      <button class="button-default" routerLink="" (click)="addToCart()">
+        Adicionar ao carrinho
+      </button>
+    </div>
+  </div>
+</div>

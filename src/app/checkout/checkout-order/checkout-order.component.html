@@ -1,0 +1,22 @@
+<div class="order-container">
+  <div class="order-summary">
+    <div class="order-title padding">
+      <h3>Resumo do Pedido</h3>
+    </div>
+    <div class="order-resume padding">
+      <div class="resume-left">
+        <span>Subtotal</span>
+        <span>Frete</span>
+      </div>
+      <div class="resume-right">
+        <span>{{ totalOrder | currency }}</span>
+        <span>Grátis</span>
+      </div>
+    </div>
+    <div class="order-total padding">
+      <strong>Total</strong>
+      <strong>{{ totalOrder | currency }}</strong>
+    </div>
+  </div>
+  <button class="button-default">Finalizar Pedido</button>
+</div>

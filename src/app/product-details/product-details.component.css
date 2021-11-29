@@ -1,0 +1,43 @@
+.container-product-details {
+  margin-top: 5rem;
+  display: flex;
+  padding: 25px;
+}
+
+.product-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #efefef;
+}
+
+.product-img > img {
+  width: 100%;
+  padding: 5px;
+}
+
+.product-add-cart {
+  margin-left: 1rem;
+  width: 50%;
+  padding: 25px;
+  border: 1px solid #efefef;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+strong {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
